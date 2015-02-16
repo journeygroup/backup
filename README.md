@@ -2,9 +2,9 @@
 
 ## Why
 
-Journey/Backup is a lightweight MySQL backup script written in PHP, and ideal for cron jobs. It's task is simple:
+Journey/Backup is a lightweight MySQL backup script written in PHP, and ideal for cron jobs. Its task is simple:
 
-- Dump MySQL a user-selected list, or all databases on the local server
+- Dump a user-selected list, or all databases on the local MySQL server
 - Store those databases in a mounted directory, or on Amazon S3
 
 
@@ -29,8 +29,8 @@ return [
     // Local database connection details
     'connection' => [
         'host' => "127.0.0.1",
-        'username' => "root",
-        'password' => "your-password",
+        'username' => "mysql-username",
+        'password' => "mysql-password",
     ],
 
     // String of databases to back up, empty value will backup all databases

@@ -4,8 +4,8 @@ return [
     // Local database connection details
     'connection' => [
         'host' => "127.0.0.1",
-        'username' => "root",
-        'password' => "your-password",
+        'username' => "mysql-username",
+        'password' => "mysql-password",
     ],
 
     // String of databases to back up, empty value will backup all databases
