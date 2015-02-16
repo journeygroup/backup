@@ -22,7 +22,7 @@ composer create-project journey/backup your-directory-name
 
 To configure, edit the `config.php` file with your own details. Here's is the sample configuration file, with helpful comments:
 
-```
+```php
 <?php
 
 return [
