@@ -114,7 +114,7 @@ class Backup
         if (!$this->s3 && !is_dir($location)) {
             mkdir($location, 0777, true);
         }
-        $location .= date('Y-m-d-') . $database . '.sql';
+        $location .= date('Y-m-d-') . $database . '-' . $this->conf['server'] . '.sql';
         return $location;
     }
 }
