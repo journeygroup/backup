@@ -19,8 +19,12 @@ return [
 
     // List of AWS Connection credentials
     'aws' => [
-        'key' => 'your-aws-key',
-        'secret' => 'your-aws-secret'
+        'region' => 'us-east-1',
+        'version' => '2006-03-01',
+        'credentials' => [
+            'key' => 'your-aws-key',
+            'secret' => 'your-aws-secret',
+        ],
     ],
 
     // Temporary location for dump
